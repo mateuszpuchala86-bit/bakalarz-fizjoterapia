@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt i umów wizytę — Fizjoterapeuta Sandomierz, Wałowa 38 A</title>
+<meta name="description" content="Skontaktuj się z gabinetem fizjoterapii Mirosława Bakalarza w Sandomierzu. Adres: Wałowa 38 A. Telefon: 606 287 889. Formularz kontaktowy dostępny na stronie.">
+<link rel="canonical" href="https://PODMIEN-DOMENE.pl/kontakt.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "Gabinet Fizjoterapii Mirosław Bakalarz",
+  "telephone": "+48606287889",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Wałowa 38 A",
+    "addressLocality": "Sandomierz",
+    "postalCode": "27-600",
+    "addressCountry": "PL"
+  },
+  "areaServed": "Sandomierz",
+  "openingHours": "Mo-Su 00:00-23:59"
+}
+</script>
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <a href="index.html" class="logo">Mirosław Bakalarz <span>Fizjoterapia</span></a>
+    <div class="nav-links">
+      <a href="index.html">Strona główna</a>
+      <a href="o-mnie.html">O mnie</a>
+      <a href="uslugi.html">Usługi</a>
+      <a href="opinie.html">Opinie</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+    <a href="tel:606287889" class="btn btn-primary nav-cta">Zadzwoń teraz</a>
+    <button class="burger" id="burgerBtn" aria-label="Otwórz menu">☰</button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Strona główna</a>
+    <a href="o-mnie.html">O mnie</a>
+    <a href="uslugi.html">Usługi</a>
+    <a href="opinie.html">Opinie</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="tel:606287889" style="border:none; color: var(--deep-teal); font-weight:700;">Zadzwoń teraz: 606 287 889</a>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Strona główna</a> / Kontakt</div>
+    <h1>Umów wizytę — odezwę się i ustalimy najlepszy termin</h1>
+    <p class="lead">Zadzwoń, napisz albo wypełnij formularz poniżej. Odpowiadam osobiście, więc od razu porozmawiamy o Twoim przypadku.</p>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="ico">📍</div>
+          <div>
+            <h4>Adres gabinetu</h4>
+            <p>Wałowa 38 A, 27-600 Sandomierz</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ico">📞</div>
+          <div>
+            <h4>Telefon</h4>
+            <a href="tel:606287889">606 287 889</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ico">🕐</div>
+          <div>
+            <h4>Dostępność</h4>
+            <p>Czynne całą dobę — zadzwoń o dogodnej dla Ciebie porze</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ico">🚗</div>
+          <div>
+            <h4>Dojazd do domu</h4>
+            <p>Możliwość wizyty u Ciebie, jeśli wygodniej Ci w domu</p>
+          </div>
+        </div>
+        <div class="map-embed">
+          <iframe
+            src="https://www.google.com/maps?q=Wa%C5%82owa+38A%2C+27-600+Sandomierz&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mapa dojazdu do gabinetu — Wałowa 38 A, Sandomierz">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <h3>Zapytaj o wolny termin</h3>
+        <p class="sub">Wypełnij formularz — oddzwonię lub napiszę, żeby ustalić szczegóły wizyty.</p>
+        <div class="form-success" id="formSuccess">Dziękuję! Wiadomość została wysłana — odezwę się najszybciej, jak to możliwe.</div>
+        <form id="contactForm" action="https://formspree.io/f/PLACEHOLDER" method="POST">
+          <div class="field">
+            <label for="name">Imię i nazwisko</label>
+            <input type="text" id="name" name="name" placeholder="Jan Kowalski" required>
+          </div>
+          <div class="field">
+            <label for="phone">Telefon</label>
+            <input type="tel" id="phone" name="phone" placeholder="np. 500 100 200" required>
+          </div>
+          <div class="field">
+            <label for="message">Krótko opisz swój problem</label>
+            <textarea id="message" name="message" placeholder="Np. ból dolnego odcinka kręgosłupa, trwający od kilku tygodni..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Umów wizytę</button>
+          <p class="form-note">Twoje dane wykorzystam wyłącznie do kontaktu w sprawie wizyty.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">Mirosław Bakalarz — Fizjoterapia</div>
+      <p>Wałowa 38 A, 27-600 Sandomierz · 606 287 889</p>
+    </div>
+    <ul class="footer-links">
+      <a href="index.html">Strona główna</a>
+      <a href="o-mnie.html">O mnie</a>
+      <a href="uslugi.html">Usługi</a>
+      <a href="opinie.html">Opinie</a>
+      <a href="kontakt.html">Kontakt</a>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    © <span id="year"></span> Gabinet Fizjoterapii Mirosław Bakalarz. Wszelkie prawa zastrzeżone.
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
