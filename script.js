@@ -25,7 +25,7 @@ if (form) {
     if (form.action.includes('PLACEHOLDER')) {
       e.preventDefault();
       successBox.classList.add('show');
-      successBox.textContent = 'Uwaga: podmień adres Formspree w kodzie (action="..."), aby formularz naprawdę wysyłał wiadomości.';
+      successBox.textContent = 'To wersja demonstracyjna — po uruchomieniu strony formularz będzie wysyłał wiadomości bezpośrednio na Pana adres e-mail.';
       form.reset();
     }
   });
