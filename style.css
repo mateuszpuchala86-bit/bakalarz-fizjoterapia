@@ -1,6 +1,6 @@
 :root {
   --deep-teal: #1d4e4a;
-  --sage: #7fa896;
+  --sage: #4a7a63;
   --sage-light: #e7f0ec;
   --sky: #eef4f6;
   --ink: #1c2b28;
@@ -231,6 +231,7 @@ header {
   color: var(--ink-soft);
 }
 .hero-trust strong { color: var(--deep-teal); }
+.trust-icon { vertical-align: -2px; margin-right: 2px; }
 
 .stars { color: var(--gold); letter-spacing: 2px; font-size: 1rem; }
 
